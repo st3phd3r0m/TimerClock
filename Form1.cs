@@ -35,8 +35,8 @@ namespace TimerClock
             timer1.Start();
             soundFileTimer = ConfigurationManager.AppSettings.Get("soundFileTimer");
             soundFileAlarm = ConfigurationManager.AppSettings.Get("soundFileAlarm");
-            timerSoundLabel.Text = (soundFileTimer==null)? "Aucun fichier sélectionné":soundFileTimer.Split('\\').Last();
-            alarmSoundLabel.Text = (soundFileAlarm==null)? "Aucun fichier sélectionné":soundFileAlarm.Split('\\').Last();
+            timerSoundLabel.Text = (soundFileTimer==null)? "No audio file selected":soundFileTimer.Split('\\').Last();
+            alarmSoundLabel.Text = (soundFileAlarm==null)? "No audio file selected" : soundFileAlarm.Split('\\').Last();
 
         }
 
