@@ -291,7 +291,7 @@ namespace TimerClock
             this.alarmFeatureNameLabel.Name = "alarmFeatureNameLabel";
             this.alarmFeatureNameLabel.Size = new System.Drawing.Size(287, 23);
             this.alarmFeatureNameLabel.TabIndex = 0;
-            this.alarmFeatureNameLabel.Text = "Alarme";
+            this.alarmFeatureNameLabel.Text = "Alarm";
             this.alarmFeatureNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1

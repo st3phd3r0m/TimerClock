@@ -119,7 +119,7 @@ namespace TimerClock
             {
                 if ( soundFileTimer == null )
                 {
-                    MessageBox.Show("Veuillez sélectionner un fichier audio.");
+                    MessageBox.Show("Please select an audio file first.");
                 }
                 else
                 {
@@ -148,7 +148,7 @@ namespace TimerClock
             {
                 if (soundFileAlarm == null)
                 {
-                    MessageBox.Show("Veuillez sélectionner un fichier audio.");
+                    MessageBox.Show("Please select a audio file first.");
                 }
                 else
                 {
